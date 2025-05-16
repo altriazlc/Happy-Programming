@@ -1,0 +1,6 @@
+projectKey=HappyPrograming
+serverUrl=http://localhost:9000
+serverVersion=10.7.0.96327
+dashboardUrl=http://localhost:9000/dashboard?id=HappyPrograming
+ceTaskId=00df6799-e537-4112-a41b-521709c9a9e7
+ceTaskUrl=http://localhost:9000/api/ce/task?id=00df6799-e537-4112-a41b-521709c9a9e7

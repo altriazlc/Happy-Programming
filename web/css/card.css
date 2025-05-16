@@ -1,0 +1,64 @@
+
+
+    .cours-bx {
+        display: flex;
+        flex-direction: column;
+        height: 400px; /* Fixed card height */
+        border: 1px solid #ddd;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .action-box {
+        flex-grow: 1;
+        overflow: hidden;
+        height: 200px; /* Fixed image container height */
+    }
+
+    .action-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ensures the image covers the space without distortion */
+    }
+
+    .info-bx {
+        flex-shrink: 0;
+        padding: 15px;
+        height: 130px; /* Fixed height for the text section */
+        overflow: hidden;
+    }
+
+    .description {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 1.5em;
+        height: 3.5em; /* Limit height to 3 lines */
+    }
+
+    .cours-more-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px 15px;
+        height: 70px; /* Fixed height for the bottom section */
+    }
+
+    .review {
+        font-size: 14px;
+    }
+
+    .btn {
+        margin-top: 10px;
+        padding: 5px 10px;
+        text-align: center;
+        background-color: #007bff;
+        color: white;
+        border-radius: 3px;
+        text-decoration: none;
+    }
+
+    .btn:hover {
+        background-color: #0056b3;
+    }
